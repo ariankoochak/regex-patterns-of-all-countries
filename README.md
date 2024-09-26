@@ -170,3 +170,28 @@ This repository contains regular expression (regex) patterns for validating phon
   - 🇿🇼 [Zimbabwe](#Zimbabwe)
 
 
+---
+
+#### 🇦🇫 Afghanistan
+##### Phone Number
+- **Pattern:** `^(\+93|0)?(2{1}[0-8]{1}|[3-5]{1}[0-4]{1})(\d{7})$`
+##### Postal Code
+- **Pattern:** `^\d{4}$`
+
+---
+
+#### 🇦🇽 Åland Islands
+##### Phone Number
+- **Pattern:** `^\+35818[0-9]{5}$`
+##### Postal Code
+- **Pattern:** `^22[0-9]{3}$`
+
+---
+
+#### 🇦🇱 Albania
+##### Phone Number
+- **Pattern:** `^\+355[2-9]\d{7,8}$`
+##### Postal Code
+- **Pattern:** `^\d{4}$`
+
+---
