@@ -4,7 +4,7 @@ This repository contains regular expression (regex) patterns for validating phon
 [![Licence](https://img.shields.io/github/license/Ileriayo/markdown-badges?style=for-the-badge)](./LICENSE)
 
 ## Contents
-  - 🇦🇫 [Afghanistan](#Afghanistan)
+  - 🇦🇫 [Afghanistan](#afghanistan)
   - 🇦🇽 [Åland Islands](#åland-islands)
   - 🇦🇱 [Albania](#albania)
   - 🇩🇿 [Algeria](#Algeria)
@@ -171,27 +171,25 @@ This repository contains regular expression (regex) patterns for validating phon
 
 
 ---
-
-#### 🇦🇫 Afghanistan
+## 🇦🇫
+#### Afghanistan
 ##### Phone Number
 - **Pattern:** `^(\+93|0)?(2{1}[0-8]{1}|[3-5]{1}[0-4]{1})(\d{7})$`
 ##### Postal Code
 - **Pattern:** `^\d{4}$`
 
 ---
-
-#### 🇦🇽 Åland Islands
+## 🇦🇽
+#### Åland Islands
 ##### Phone Number
 - **Pattern:** `^\+35818[0-9]{5}$`
 ##### Postal Code
 - **Pattern:** `^22[0-9]{3}$`
 
 ---
-
-#### 🇦🇱 Albania
+## 🇦🇱
+#### Albania
 ##### Phone Number
 - **Pattern:** `^\+355[2-9]\d{7,8}$`
 ##### Postal Code
 - **Pattern:** `^\d{4}$`
-
----
