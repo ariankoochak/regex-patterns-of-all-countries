@@ -197,3 +197,10 @@ This repository contains regular expression (regex) patterns for validating phon
 - **Pattern:** `^(\+?213|0)(5|6|7)\d{8}$`
 ##### Postal Code
 - **Pattern:** `^\d{5}$`
+
+---
+#### 🇦🇩Andorra
+##### Phone Number
+- **Pattern:** `^(\+376)?[346]\d{5}$`
+##### Postal Code
+- **Pattern:** `^AD\d{3}$`
