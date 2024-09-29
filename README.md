@@ -9,7 +9,7 @@ This repository contains regular expression (regex) patterns for validating phon
   - 🇦🇱 [Albania](#albania)
   - 🇩🇿 [Algeria](#algeria)
   - 🇦🇩 [Andorra](#andorra)
-  - 🇦🇴 [Angola](#Angola)
+  - 🇦🇴 [Angola](#angola)
   - 🇦🇮 [Anguilla](#Anguilla)
   - 🇦🇬 [Antigua and Barbuda](#Antigua-and-Barbuda)
   - 🇦🇷 [Argentina](#Argentina)
@@ -204,3 +204,10 @@ This repository contains regular expression (regex) patterns for validating phon
 - **Pattern:** `^(\+376)?[346]\d{5}$`
 ##### Postal Code
 - **Pattern:** `^AD\d{3}$`
+
+---
+## 🇦🇴Angola
+##### Phone Number
+- **Pattern:** `^(\+244)\d{9}$`
+##### Postal Code
+- **Pattern:** `❌`
