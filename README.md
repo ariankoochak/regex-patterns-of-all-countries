@@ -78,26 +78,26 @@ This repository contains regular expression (regex) patterns for validating phon
   - 🇯🇵 [Japan](#japan)
   - 🇯🇴 [Jordan](#jordan)
   - 🇰🇿 [Kazakhstan](#kazakhstan)
-  - 🇰🇪 [Kenya](#Kenya)
-  - 🇰🇮 [Kiribati](#Kiribati)
-  - 🇰🇷 [South Korea](#South-Korea)
-  - 🇽🇰 [Kosovo](#kosovo-warning) :warning:
-  - 🇰🇼 [Kuwait](#Kuwait)
-  - 🇰🇬 [Kyrgyzstan](#Kyrgyzstan)
+  - 🇰🇪 [Kenya](#kenya)
+  - 🇰🇮 [Kiribati](#kiribati)
+  - 🇰🇷 [South Korea](#south-korea)
+  - 🇽🇰 [Kosovo](#kosovo) :warning:
+  - 🇰🇼 [Kuwait](#kuwait)
+  - 🇰🇬 [Kyrgyzstan](#kyrgyzstan)
   - 🇱🇻 [Latvia](#latvia)
-  - 🇱🇧 [Lebanon](#Lebanon)
-  - 🇱🇸 [Lesotho](#Lesotho)
-  - 🇱🇾 [Libya](#Libya)
+  - 🇱🇧 [Lebanon](#lebanon)
+  - 🇱🇸 [Lesotho](#lesotho)
+  - 🇱🇾 [Libya](#libya)
   - 🇱🇮 [Liechtenstein](#liechtenstein)
   - 🇱🇹 [Lithuania](#lithuania)
   - 🇱🇺 [Luxembourg](#luxembourg)
-  - 🇲🇴 [Macao](#Macao)
-  - 🇲🇬 [Madagascar](#Madagascar)
-  - 🇲🇼 [Malawi](#Malawi)
-  - 🇲🇾 [Malaysia](#Malaysia)
-  - 🇲🇻 [Maldives](#Maldives)
+  - 🇲🇴 [Macao](#macao)
+  - 🇲🇬 [Madagascar](#madagascar)
+  - 🇲🇼 [Malawi](#malawi)
+  - 🇲🇾 [Malaysia](#malaysia)
+  - 🇲🇻 [Maldives](#maldives)
   - 🇲🇹 [Malta](#malta)
-  - 🇲🇶 [Martinique](#Martinique)
+  - 🇲🇶 [Martinique](#martinique)
   - 🇲🇺 [Mauritius](#Mauritius)
   - 🇲🇽 [Mexico](#Mexico)
   - 🇲🇩 [Moldova](#moldova)
@@ -687,3 +687,143 @@ This repository contains regular expression (regex) patterns for validating phon
 - **Pattern:** `^(\+?7|8)?7\d{9}$`
 ##### Postal Code
 - **Pattern:** `^\d{6}$`
+
+---
+## 🇰🇪Kenya
+##### Phone Number
+- **Pattern:** `^(\+?254|0)(7|1)\d{8}$`
+##### Postal Code
+- **Pattern:** `^\d{5}$`
+
+---
+## 🇰🇮Kiribati
+##### Phone Number
+- **Pattern:** `^((\+686|686)?)?( )?((6|7)(2|3|8)[0-9]{6})$`
+##### Postal Code
+- **Pattern:** `❌`
+
+---
+## 🇰🇷South Korea
+##### Phone Number
+- **Pattern:** `^((\+?82)[ \-]?)?0?1([0|1|6|7|8|9]{1})[ \-]?\d{3,4}[ \-]?\d{4}$`
+##### Postal Code
+- **Pattern:** `^\d{6}\s\(\d{3}-\d{3}\)$`
+
+---
+## 🇽🇰Kosovo
+##### Phone Number
+- **Pattern:** `^\+383[1-9][0-9]{6,7}$`
+##### Postal Code
+- **Pattern:** `^\d{5}$`
+
+---
+## 🇰🇼Kuwait
+##### Phone Number
+- **Pattern:** `^(\+?965)([569]\d{7}|41\d{6})$`
+##### Postal Code
+- **Pattern:** `^\d{5}$`
+
+---
+## 🇰🇬Kyrgyzstan
+##### Phone Number
+- **Pattern:** `^(\+?7\s?\+?7|0)\s?\d{2}\s?\d{3}\s?\d{4}$`
+##### Postal Code
+- **Pattern:** `^\d{6}$`
+
+---
+## 🇱🇻Latvia
+##### Phone Number
+- **Pattern:** `^(\+?371)2\d{7}$`
+##### Postal Code
+- **Pattern:** `^[Ll][Vv][- ]{0,1}\d{4}$`
+
+---
+## 🇱🇧Lebanon
+##### Phone Number
+- **Pattern:** `^(\+?961)?((3|81)\d{6}|7\d{7})$`
+##### Postal Code
+- **Pattern:** `^\d{4}\s{0,1}\d{4}$`
+
+---
+## 🇱🇸Lesotho
+##### Phone Number
+- **Pattern:** `^(\+?266)(22|28|57|58|59|27|52)\d{6}$`
+##### Postal Code
+- **Pattern:** `^\d{3}$`
+
+---
+## 🇱🇾Libya
+##### Phone Number
+- **Pattern:** `^((\+?218)|0)?(9[1-6]\d{7}|[1-8]\d{7,9})$`
+##### Postal Code
+- **Pattern:** `^\d{5}$`
+
+---
+## 🇱🇮Liechtenstein
+##### Phone Number
+- **Pattern:** `^\+423[0-9]{3,12}$`
+##### Postal Code
+- **Pattern:** `^\d{4}$`
+
+---
+## 🇱🇹Lithuania
+##### Phone Number
+- **Pattern:** `^(\+370|8)\d{8}$`
+##### Postal Code
+- **Pattern:** `^[Ll][Tt][- ]{0,1}\d{5}$`
+
+---
+## 🇱🇺Luxembourg
+##### Phone Number
+- **Pattern:** `^(\+352)?((6\d1)\d{6})$`
+##### Postal Code
+- **Pattern:** `^\d{4}$`
+
+---
+## 🇲🇴Macao
+##### Phone Number
+- **Pattern:** `^(\+?853[-\s]?)?[6]\d{3}[-\s]?\d{4}$`
+##### Postal Code
+- **Pattern:** `❌`
+
+---
+## 🇲🇬Madagascar
+##### Phone Number
+- **Pattern:** `^((\+?261|0)(2|3)\d)?\d{7}$`
+##### Postal Code
+- **Pattern:** `^\d{3}$`
+
+---
+## 🇲🇼Malawi
+##### Phone Number
+- **Pattern:** `^(\+?265|0)(((77|88|31|99|98|21)\d{7})|(((111)|1)\d{6})|(32000\d{4}))$`
+##### Postal Code
+- **Pattern:** `❌`
+
+---
+## 🇲🇾Malaysia
+##### Phone Number
+- **Pattern:** `^(\+?60|0)1(([0145](-|\s)?\d{7,8})|([236-9](-|\s)?\d{7}))$`
+##### Postal Code
+- **Pattern:** `^\d{5}$`
+
+---
+## 🇲🇻Maldives
+##### Phone Number
+- **Pattern:** `^(\+?960)?(7[2-9]|9[1-9])\d{5}$`
+##### Postal Code
+- **Pattern:** `^\d{4,5}$`
+
+---
+## 🇲🇹Malta
+##### Phone Number
+- **Pattern:** `^(\+?356|0)?(99|79|77|21|27|22|25)[0-9]{6}$`
+##### Postal Code
+- **Pattern:** `^[A-Za-z]{3}\s{0,1}\d{4}$`
+
+---
+## 🇲🇶Martinique
+##### Phone Number
+- **Pattern:** `^(\+?596|0|00596)[67]\d{8}$`
+##### Postal Code
+- **Pattern:** `^972\d{2}$`
