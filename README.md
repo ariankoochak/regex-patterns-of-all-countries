@@ -11,7 +11,7 @@ This repository contains regular expression (regex) patterns for validating phon
   - 🇦🇩 [Andorra](#andorra)
   - 🇦🇴 [Angola](#angola)
   - 🇦🇮 [Anguilla](#anguilla)
-  - 🇦🇬 [Antigua and Barbuda](#Antigua-and-Barbuda)
+  - 🇦🇬 [Antigua and Barbuda](#antigua-and-barbuda)
   - 🇦🇷 [Argentina](#Argentina)
   - 🇦🇲 [Armenia](#Armenia)
   - 🇦🇼 [Aruba](#Aruba)
@@ -218,3 +218,10 @@ This repository contains regular expression (regex) patterns for validating phon
 - **Pattern:** `^(\+?1|0)264(?:2(35|92)|4(?:6[1-2]|76|97)|5(?:3[6-9]|8[1-4])|7(?:2(4|9)|72))\d{4}$`
 ##### Postal Code
 - **Pattern:** `^[A][I][-][2][6][4][0]$`
+
+---
+## 🇦🇬Antigua and Barbuda
+##### Phone Number
+- **Pattern:** `^(?:\+1|1)268(?:464|7(?:1[3-9]|[28]\d|3[0246]|64|7[0-689]))\d{4}$`
+##### Postal Code
+- **Pattern:** `❌`
