@@ -458,6 +458,13 @@ This repository contains regular expression (regex) patterns for validating phon
 - **Pattern:** `^\d{4}$`
 
 ---
+## 🇩🇴Dominican Republic
+##### Phone Number
+- **Pattern:** `^(\+?1)?8[024]9\d{7}$`
+##### Postal Code
+- **Pattern:** `^\d{5}$`
+
+---
 ## 🇪🇨Ecuador
 ##### Phone Number
 - **Pattern:** `^(\+?593|0)([2-7]|9[2-9])\d{7}$`
