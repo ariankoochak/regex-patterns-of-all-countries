@@ -118,15 +118,15 @@ This repository contains regular expression (regex) patterns for validating phon
   - 🇴🇲 [Oman](#oman)
   - 🇵🇰 [Pakistan](#pakistan)
   - 🇵🇸 [Palestine](#palestine)
-  - 🇵🇦 [Panama](#Panama)
-  - 🇵🇬 [Papua New Guinea](#Papua-New-Guinea)
-  - 🇵🇾 [Paraguay](#Paraguay)
-  - 🇵🇪 [Peru](#Peru)
-  - 🇵🇭 [Philippines](#Philippines)
+  - 🇵🇦 [Panama](#panama)
+  - 🇵🇬 [Papua New Guinea](#papua-new-guinea)
+  - 🇵🇾 [Paraguay](#paraguay)
+  - 🇵🇪 [Peru](#peru)
+  - 🇵🇭 [Philippines](#philippines)
   - 🇵🇱 [Poland](#poland)
   - 🇵🇹 [Portugal](#portugal)
-  - 🇶🇦 [Qatar](#Qatar)
-  - 🇷🇪 [Réunion](#Réunion)
+  - 🇶🇦 [Qatar](#qatar)
+  - 🇷🇪 [Réunion](#réunion)
   - 🇷🇴 [Romania](#romania)
   - 🇷🇺 [Russia](#Russia)
   - 🇷🇼 [Rwanda](#Rwanda)
@@ -967,3 +967,73 @@ This repository contains regular expression (regex) patterns for validating phon
 - **Pattern:** `^(\+?970|0)5[6|9](\d{7}`
 ##### Postal Code
 - **Pattern:** `^\d{5}$`
+
+---
+## 🇵🇦Panama
+##### Phone Number
+- **Pattern:** `^(\+?507)\d{7,8}$`
+##### Postal Code
+- **Pattern:** `^\d{6}$`
+
+---
+## 🇵🇬Papua New Guinea
+##### Phone Number
+- **Pattern:** `^(\+?675|0)?(7\d|8[18])\d{6}$`
+##### Postal Code
+- **Pattern:** `^\d{3}$`
+
+---
+## 🇵🇾Paraguay
+##### Phone Number
+- **Pattern:** `^(\+?595|0)9[9876]\d{7}$`
+##### Postal Code
+- **Pattern:** `^\d{4}$`
+
+---
+## 🇵🇪Peru
+##### Phone Number
+- **Pattern:** `^(\+?51)?9\d{8}$`
+##### Postal Code
+- **Pattern:** `^\d{5}$`
+
+---
+## 🇵🇭Philippines
+##### Phone Number
+- **Pattern:** `^(09|\+639)\d{9}$`
+##### Postal Code
+- **Pattern:** `^\d{4}$`
+
+---
+## 🇵🇱Poland
+##### Phone Number
+- **Pattern:** `^(\+?48)? ?([5-8]\d|45) ?\d{3} ?\d{2} ?\d{2}$`
+##### Postal Code
+- **Pattern:** `^\d{2}[- ]{0,1}\d{3}$`
+
+---
+## 🇵🇹Portugal
+##### Phone Number
+- **Pattern:** `^(\+?351)?9[1236]\d{7}$`
+##### Postal Code
+- **Pattern:** `^\d{4}[- ]{0,1}\d{3}$` or `^\d{4}$`
+
+---
+## 🇶🇦Qatar
+##### Phone Number
+- **Pattern:** `^(\+974)?[3567]\d{7}$`
+##### Postal Code
+- **Pattern:** `❌`
+
+---
+## 🇷🇪Réunion
+##### Phone Number
+- **Pattern:** `^(\+?262|0|00262)[67]\d{8}$`
+##### Postal Code
+- **Pattern:** `^974\d{2}$`
+
+---
+## 🇷🇴Romania
+##### Phone Number
+- **Pattern:** `^(\+?40|0)\s?7\d{2}(\/|\s|\.|-)?\d{3}(\s|\.|-)?\d{3}$`
+##### Postal Code
+- **Pattern:** `^\d{6}$`
