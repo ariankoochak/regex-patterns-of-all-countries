@@ -19,17 +19,17 @@ This repository contains regular expression (regex) patterns for validating phon
   - 🇦🇹 [Austria](#austria)
   - 🇦🇿 [Azerbaijan](#azerbaijan)
   - 🇧🇸 [Bahamas](#bahamas)
-  - 🇧🇭 [Bahrain](#Bahrain)
-  - 🇧🇩 [Bangladesh](#Bangladesh)
+  - 🇧🇭 [Bahrain](#bahrain)
+  - 🇧🇩 [Bangladesh](#bangladesh)
   - 🇧🇾 [Belarus](#belarus)
   - 🇧🇪 [Belgium](#belgium)
-  - 🇧🇯 [Benin](#Benin)
-  - 🇧🇲 [Bermuda](#Bermuda)
-  - 🇧🇹 [Bhutan](#Bhutan)
-  - 🇧🇴 [Bolivia](#Bolivia)
+  - 🇧🇯 [Benin](#benin)
+  - 🇧🇲 [Bermuda](#bermuda)
+  - 🇧🇹 [Bhutan](#bhutan)
+  - 🇧🇴 [Bolivia](#bolivia)
   - 🇧🇦 [Bosnia and Herzegovina](#bosnia-and-herzegovina)
-  - 🇧🇼 [Botswana](#Botswana)
-  - 🇧🇷 [Brazil](#Brazil)
+  - 🇧🇼 [Botswana](#botswana)
+  - 🇧🇷 [Brazil](#brazil)
   - 🇧🇬 [Bulgaria](#bulgaria)
   - 🇧🇫 [Burkina Faso](#Burkina-Faso)
   - 🇨🇲 [Cameroon](#Cameroon)
@@ -274,3 +274,80 @@ This repository contains regular expression (regex) patterns for validating phon
 - **Pattern:** `^(\+?1[-\s]?|0)?\(?242\)?[-\s]?\d{3}[-\s]?\d{4}$`
 ##### Postal Code
 - **Pattern:** `❌`
+
+---
+## 🇧🇭Bahrain
+##### Phone Number
+- **Pattern:** `^(\+?973)?(3|6)\d{7}$`
+##### Postal Code
+- **Pattern:** `^\d{3,4}$`
+
+---
+## 🇧🇩Bangladesh
+##### Phone Number
+- **Pattern:** `^(\+?880|0)1[13456789][0-9]{8}$`
+##### Postal Code
+- **Pattern:** `^\d{4}$`
+
+---
+## 🇧🇾Belarus
+##### Phone Number
+- **Pattern:** `^(\+?375)?(24|25|29|33|44)\d{7}$`
+##### Postal Code
+- **Pattern:** `^\d{6}$`
+
+---
+## 🇧🇪Belgium
+##### Phone Number
+- **Pattern:** `^(\+?32|0)4\d{8}$`
+##### Postal Code
+- **Pattern:** `^\d{4}$`
+
+---
+## 🇧🇯Benin
+##### Phone Number
+- **Pattern:** `^(\+229)\d{8}$`
+##### Postal Code
+- **Pattern:** `❌`
+
+---
+## 🇧🇲Bermuda
+##### Phone Number
+- **Pattern:** `^(\+?1)?441(((3|7)\d{6}$)|(5[0-3][0-9]\d{4}$)|(59\d{5}$))`
+##### Postal Code
+- **Pattern:** `^[A-Za-z]{2}\\s([A-Za-z]{2}|\\d{2})$`
+
+---
+## 🇧🇹Bhutan
+##### Phone Number
+- **Pattern:** `^(\+?975|0)?(17|16|77|02)\d{6}$`
+##### Postal Code
+- **Pattern:** `^\d{5}$`
+
+---
+## 🇧🇴Bolivia
+##### Phone Number
+- **Pattern:** `^(\+?591)?(6|7)\d{7}$`
+##### Postal Code
+- **Pattern:** `^\d{4}$`
+
+---
+## 🇧🇦Bosnia and Herzegovina
+##### Phone Number
+- **Pattern:** `^((((\+|00)3876)|06))((([0-3]|[5-6])\d{6})|(4\d{7}))$`
+##### Postal Code
+- **Pattern:** `^\d{5}$`
+
+---
+## 🇧🇼Botswana
+##### Phone Number
+- **Pattern:** `^(\+?267)?(7[1-8]{1})\d{6}$`
+##### Postal Code
+- **Pattern:** `❌`
+
+---
+## 🇧🇷Brazil
+##### Phone Number
+- **Pattern:** `^((\+?55\ ?[1-9]{2}\ ?)|(\+?55\ ?\([1-9]{2}\)\ ?)|(0[1-9]{2}\ ?)|(\([1-9]{2}\)\ ?)|([1-9]{2}\ ?))((\d{4}\-?\d{4})|(9[1-9]{1}\d{3}\-?\d{4}))$`
+##### Postal Code
+- **Pattern:** `^\d{5}-\d{3}$`
