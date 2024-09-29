@@ -13,12 +13,12 @@ This repository contains regular expression (regex) patterns for validating phon
   - 🇦🇮 [Anguilla](#anguilla)
   - 🇦🇬 [Antigua and Barbuda](#antigua-and-barbuda)
   - 🇦🇷 [Argentina](#argentina)
-  - 🇦🇲 [Armenia](#Armenia)
-  - 🇦🇼 [Aruba](#Aruba)
-  - 🇦🇺 [Australia](#Australia)
+  - 🇦🇲 [Armenia](#armenia)
+  - 🇦🇼 [Aruba](#aruba)
+  - 🇦🇺 [Australia](#australia)
   - 🇦🇹 [Austria](#austria)
-  - 🇦🇿 [Azerbaijan](#Azerbaijan)
-  - 🇧🇸 [Bahamas](#Bahamas)
+  - 🇦🇿 [Azerbaijan](#azerbaijan)
+  - 🇧🇸 [Bahamas](#bahamas)
   - 🇧🇭 [Bahrain](#Bahrain)
   - 🇧🇩 [Bangladesh](#Bangladesh)
   - 🇧🇾 [Belarus](#belarus)
@@ -231,4 +231,46 @@ This repository contains regular expression (regex) patterns for validating phon
 ##### Phone Number
 - **Pattern:** `^\+?549(11|[2368]\d)\d{8}$`
 ##### Postal Code
-- **Pattern:** `^\\d{4}|[A-Za-z]\\d{4}[a-zA-Z]{3}$`
+- **Pattern:** `^\d{4}|[A-Za-z]\\d{4}[a-zA-Z]{3}$`
+
+---
+## 🇦🇲Armenia
+##### Phone Number
+- **Pattern:** `^(\+?374|0)(33|4[134]|55|77|88|9[13-689])\d{6}$`
+##### Postal Code
+- **Pattern:** `^\d{4}$`
+
+---
+## 🇦🇼Aruba
+##### Phone Number
+- **Pattern:** `^(\+)?297(56|59|64|73|74|99)\d{5}$`
+##### Postal Code
+- **Pattern:** `❌`
+
+---
+## 🇦🇺Australia
+##### Phone Number
+- **Pattern:** `^(\+?61|0)4\d{8}$`
+##### Postal Code
+- **Pattern:** `^\d{4}$`
+
+---
+## 🇦🇹Austria
+##### Phone Number
+- **Pattern:** `^\+43[1-9][0-9]{3,12}$`
+##### Postal Code
+- **Pattern:** `^\d{4}$`
+
+---
+## 🇦🇿Azerbaijan
+##### Phone Number
+- **Pattern:** `^(\+994|0)(10|5[015]|7[07]|99)\d{7}$`
+##### Postal Code
+- **Pattern:** `^[A][Z]\\d{4}$`
+
+---
+## 🇧🇸Bahamas
+##### Phone Number
+- **Pattern:** `^(\+?1[-\s]?|0)?\(?242\)?[-\s]?\d{3}[-\s]?\d{4}$`
+##### Postal Code
+- **Pattern:** `❌`
