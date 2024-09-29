@@ -71,7 +71,7 @@ This repository contains regular expression (regex) patterns for validating phon
   - 🇮🇳 [India](#india)
   - 🇮🇩 [Indonesia](#indonesia)
   - 🇮🇷 [Islamic Republic of Iran](#islamic-republic-of-iran)
-  - 🇮🇶 [Iraq](#rraq)
+  - 🇮🇶 [Iraq](#iraq)
   - 🇮🇪 [Ireland](#ireland)
   - 🇮🇹 [Italy](#italy)
   - 🇯🇲 [Jamaica](#jamaica)
