@@ -364,14 +364,14 @@ This repository contains regular expression (regex) patterns for validating phon
 ##### Phone Number
 - **Pattern:** `^(\+226|0)[67]\d{7}$`
 ##### Postal Code
-- **Pattern:** ``
+- **Pattern:** `❌`
 
 ---
 ## 🇨🇲Cameroon
 ##### Phone Number
 - **Pattern:** `^(\+?237)6[0-9]{8}$`
 ##### Postal Code
-- **Pattern:** ``
+- **Pattern:** `❌`
 
 ---
 ## 🇨🇦Canada
@@ -385,7 +385,7 @@ This repository contains regular expression (regex) patterns for validating phon
 ##### Phone Number
 - **Pattern:** `^(\+?236| ?)(70|75|77|72|21|22)\d{6}$`
 ##### Postal Code
-- **Pattern:** ``
+- **Pattern:** `❌`
 
 ---
 ## 🇨🇱Chile
@@ -413,7 +413,7 @@ This repository contains regular expression (regex) patterns for validating phon
 ##### Phone Number
 - **Pattern:** `^(\+?243|0)?(8|9)\d{8}$`
 ##### Postal Code
-- **Pattern:** ``
+- **Pattern:** `❌`
 
 ---
 ## 🇨🇷Costa Rica
