@@ -31,17 +31,17 @@ This repository contains regular expression (regex) patterns for validating phon
   - 🇧🇼 [Botswana](#botswana)
   - 🇧🇷 [Brazil](#brazil)
   - 🇧🇬 [Bulgaria](#bulgaria)
-  - 🇧🇫 [Burkina Faso](#Burkina-Faso)
-  - 🇨🇲 [Cameroon](#Cameroon)
-  - 🇨🇦 [Canada](#Canada)
-  - 🇨🇫 [Central African Republic](#Central-African-Republic)
-  - 🇨🇱 [Chile](#Chile)
-  - 🇨🇳 [China](#China)
-  - 🇨🇴 [Colombia](#Colombia)
-  - 🇨🇩 [Congo (the Democratic Republic of the)](#Congo-(the-Democratic-Republic-of-the))
-  - 🇨🇷 [Costa Rica](#Costa-Rica)
+  - 🇧🇫 [Burkina Faso](#burkina-faso)
+  - 🇨🇲 [Cameroon](#cameroon)
+  - 🇨🇦 [Canada](#canada)
+  - 🇨🇫 [Central African Republic](#central-african-republic)
+  - 🇨🇱 [Chile](#chile)
+  - 🇨🇳 [China](#china)
+  - 🇨🇴 [Colombia](#colombia)
+  - 🇨🇩 [Congo](#congo)
+  - 🇨🇷 [Costa Rica](#costa-rica)
   - 🇭🇷 [Croatia](#croatia)
-  - 🇨🇺 [Cuba](#Cuba)
+  - 🇨🇺 [Cuba](#cuba)
   - 🇨🇾 [Cyprus](#cyprus)
   - 🇨🇿 [Czech Republic](#czech-republic)
   - 🇩🇰 [Denmark](#denmark)
@@ -351,3 +351,101 @@ This repository contains regular expression (regex) patterns for validating phon
 - **Pattern:** `^((\+?55\ ?[1-9]{2}\ ?)|(\+?55\ ?\([1-9]{2}\)\ ?)|(0[1-9]{2}\ ?)|(\([1-9]{2}\)\ ?)|([1-9]{2}\ ?))((\d{4}\-?\d{4})|(9[1-9]{1}\d{3}\-?\d{4}))$`
 ##### Postal Code
 - **Pattern:** `^\d{5}-\d{3}$`
+
+---
+## 🇧🇬Bulgaria
+##### Phone Number
+- **Pattern:** `^(\+?359|0)?8[789]\d{7}$`
+##### Postal Code
+- **Pattern:** `^\d{4}$`
+
+---
+## 🇧🇫Burkina Faso
+##### Phone Number
+- **Pattern:** `^(\+226|0)[67]\d{7}$`
+##### Postal Code
+- **Pattern:** ``
+
+---
+## 🇨🇲Cameroon
+##### Phone Number
+- **Pattern:** `^(\+?237)6[0-9]{8}$`
+##### Postal Code
+- **Pattern:** ``
+
+---
+## 🇨🇦Canada
+##### Phone Number
+- **Pattern:** `^((\+1|1)?( |-)?)?(\([2-9][0-9]{2}\)|[2-9][0-9]{2})( |-)?([2-9][0-9]{2}( |-)?[0-9]{4})$`
+##### Postal Code
+- **Pattern:** `^(?=[^DdFfIiOoQqUu\\d\\s])[A-Za-z]\\d(?=[^DdFfIiOoQqUu\\d\\s])[A-Za-z]\\s{0,1}\\d(?=[^DdFfIiOoQqUu\\d\\s])[A-Za-z]\\d$`
+
+---
+## 🇨🇫Central African Republic
+##### Phone Number
+- **Pattern:** `^(\+?236| ?)(70|75|77|72|21|22)\d{6}$`
+##### Postal Code
+- **Pattern:** ``
+
+---
+## 🇨🇱Chile
+##### Phone Number
+- **Pattern:** `^(\+?56|0)[2-9]\d{1}\d{7}$`
+##### Postal Code
+- **Pattern:** `^\\d{7}\\s\\(\\d{3}-\\d{4}\\)$`
+
+---
+## 🇨🇳China
+##### Phone Number
+- **Pattern:** `^((\+|00)86)?(1[3-9]|9[28])\d{9}$`
+##### Postal Code
+- **Pattern:** `^\d{6}$`
+
+---
+## 🇨🇴Colombia
+##### Phone Number
+- **Pattern:** `^(\+?57)?3(0(0|1|2|4|5)|1\d|2[0-4]|5(0|1))\d{7}$`
+##### Postal Code
+- **Pattern:** `^\d{6}$`
+
+---
+## 🇨🇩Congo
+##### Phone Number
+- **Pattern:** `^(\+?243|0)?(8|9)\d{8}$`
+##### Postal Code
+- **Pattern:** ``
+
+---
+## 🇨🇷Costa Rica
+##### Phone Number
+- **Pattern:** `^(\+506)?[2-8]\d{7}$`
+##### Postal Code
+- **Pattern:** `^\d{4,5}$`
+
+---
+## 🇭🇷Croatia
+##### Phone Number
+- **Pattern:** `^\+385[1-9][0-9]{7,8}$`
+##### Postal Code
+- **Pattern:** `^\d{5}$`
+
+---
+## 🇨🇺Cuba
+##### Phone Number
+- **Pattern:** `^(\+53|0053)?5\d{7}$`
+##### Postal Code
+- **Pattern:** `^\d{5}$`
+
+---
+## 🇨🇾Cyprus
+##### Phone Number
+- **Pattern:** `^(\+?357?)?(9(9|6)\d{6})$`
+##### Postal Code
+- **Pattern:** `^\d{4}$`
+
+---
+## 🇨🇿Czech Republic
+##### Phone Number
+- **Pattern:** `^(\+?420)? ?[1-9][0-9]{2} ?[0-9]{3} ?[0-9]{3}$`
+##### Postal Code
+- **Pattern:** `^\d{5}\s\(\d{3}\s\d{2}\)$`
