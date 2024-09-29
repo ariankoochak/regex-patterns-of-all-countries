@@ -98,26 +98,26 @@ This repository contains regular expression (regex) patterns for validating phon
   - 🇲🇻 [Maldives](#maldives)
   - 🇲🇹 [Malta](#malta)
   - 🇲🇶 [Martinique](#martinique)
-  - 🇲🇺 [Mauritius](#Mauritius)
-  - 🇲🇽 [Mexico](#Mexico)
+  - 🇲🇺 [Mauritius](#mauritius)
+  - 🇲🇽 [Mexico](#mexico)
   - 🇲🇩 [Moldova](#moldova)
   - 🇲🇨 [Monaco](#monaco)
-  - 🇲🇳 [Mongolia](#Mongolia)
+  - 🇲🇳 [Mongolia](#mongolia)
   - 🇲🇪 [Montenegro](#montenegro)
-  - 🇲🇦 [Morocco](#Morocco)
-  - 🇲🇿 [Mozambique](#Mozambique)
-  - 🇲🇲 [Myanmar](#Myanmar)
-  - 🇲🇲 [Namibia](#Namibia)
-  - 🇲🇲 [Nauru](#Nauru)
+  - 🇲🇦 [Morocco](#morocco)
+  - 🇲🇿 [Mozambique](#mozambique)
+  - 🇲🇲 [Myanmar](#myanmar)
+  - 🇳🇦 [Namibia](#namibia)
+  - 🇳🇵 [Nepal](#nepal)
   - 🇳🇱 [Netherlands](#netherlands)
-  - 🇳🇿 [New Zealand](#New-Zealand)
-  - 🇳🇱 [Nicaragua](#Nicaragua)
-  - 🇳🇮 [Nigeria](#Nigeria)
+  - 🇳🇿 [New Zealand](#new-zealand)
+  - 🇳🇮 [Nicaragua](#nicaragua)
+  - 🇳🇬 [Nigeria](#nigeria)
   - 🇲🇰 [North Macedonia](#north-macedonia)
   - 🇳🇴 [Norway](#norway)
-  - 🇴🇲 [Oman](#Oman)
-  - 🇵🇰 [Pakistan](#Pakistan)
-  - 🇵🇸 [Palestine](#Palestine)
+  - 🇴🇲 [Oman](#oman)
+  - 🇵🇰 [Pakistan](#pakistan)
+  - 🇵🇸 [Palestine](#palestine)
   - 🇵🇦 [Panama](#Panama)
   - 🇵🇬 [Papua New Guinea](#Papua-New-Guinea)
   - 🇵🇾 [Paraguay](#Paraguay)
@@ -827,3 +827,143 @@ This repository contains regular expression (regex) patterns for validating phon
 - **Pattern:** `^(\+?596|0|00596)[67]\d{8}$`
 ##### Postal Code
 - **Pattern:** `^972\d{2}$`
+
+---
+## 🇲🇺Mauritius
+##### Phone Number
+- **Pattern:** `^(\+?230|0)?\d{8}$`
+##### Postal Code
+- **Pattern:** `❌`
+
+---
+## 🇲🇽Mexico
+##### Phone Number
+- **Pattern:** `^(\+?52)?(1|01)?\d{10,11}$`
+##### Postal Code
+- **Pattern:** `^\d{5}$`
+
+---
+## 🇲🇩Moldova
+##### Phone Number
+- **Pattern:** `^(\+?373|0)((6(0|1|2|6|7|8|9))|(7(6|7|8|9)))\d{6}$`
+##### Postal Code
+- **Pattern:** `^[M][D][- ]{0,1}\d{4}$`
+
+---
+## 🇲🇨Monaco
+##### Phone Number
+- **Pattern:** `^\+377[0-9]{8,9}$`
+##### Postal Code
+- **Pattern:** `^980\d{2}$`
+
+---
+## 🇲🇳Mongolia
+##### Phone Number
+- **Pattern:** `^(\+|00|011)?976(77|81|88|91|94|95|96|99)\d{6}$`
+##### Postal Code
+- **Pattern:** `^\d{5}$`
+
+---
+## 🇲🇪Montenegro
+##### Phone Number
+- **Pattern:** `^\+382[6-9][0-9]{6,7}$`
+##### Postal Code
+- **Pattern:** `^\d{5}$`
+
+---
+## 🇲🇦Morocco
+##### Phone Number
+- **Pattern:** `^(?:(?:\+|00)212|0)[5-7]\d{8}$`
+##### Postal Code
+- **Pattern:** `^\d{5}$`
+
+---
+## 🇲🇿Mozambique
+##### Phone Number
+- **Pattern:** `^(\+?258)?8[234567]\d{7}$`
+##### Postal Code
+- **Pattern:** `^\d{4}$`
+
+---
+## 🇲🇲Myanmar
+##### Phone Number
+- **Pattern:** `^(\+?959|09|9)(2[5-7]|3[1-2]|4[0-5]|6[6-9]|7[5-9]|9[6-9])[0-9]{7}$`
+##### Postal Code
+- **Pattern:** `^\d{5}$`
+
+---
+## 🇳🇦Namibia
+##### Phone Number
+- **Pattern:** `^(\+?264|0)(6|8)\d{7}$`
+##### Postal Code
+- **Pattern:** `^\d{5}$`
+
+---
+## 🇳🇵Nepal
+##### Phone Number
+- **Pattern:** `^(\+?977)?9[78]\d{8}$`
+##### Postal Code
+- **Pattern:** `^\d{5}$`
+
+---
+## 🇳🇱Netherlands
+##### Phone Number
+- **Pattern:** `^(((\+|00)?31\(0\))|((\+|00)?31)|0)6{1}\d{8}$`
+##### Postal Code
+- **Pattern:** `^\d{4}\s{0,1}[A-Za-z]{2}$`
+
+---
+## 🇳🇿New Zealand
+##### Phone Number
+- **Pattern:** `^(\+?64|0)[28]\d{7,9}$`
+##### Postal Code
+- **Pattern:** `^\d{4}$`
+
+---
+## 🇳🇮Nicaragua
+##### Phone Number
+- **Pattern:** `^(\+?505)\d{7,8}$`
+##### Postal Code
+- **Pattern:** `^\d{5}$`
+
+---
+## 🇳🇬Nigeria
+##### Phone Number
+- **Pattern:** `^(\+?234|0)?[789]\d{9}$`
+##### Postal Code
+- **Pattern:** `^\d{6}$`
+
+---
+## 🇲🇰North Macedonia
+##### Phone Number
+- **Pattern:** `^\+389[2-9][0-9]{6,7}$`
+##### Postal Code
+- **Pattern:** `^\d{4}$`
+
+---
+## 🇳🇴Norway
+##### Phone Number
+- **Pattern:** `^(\+?47)?[49]\d{7}$`
+##### Postal Code
+- **Pattern:** `^\d{4}$`
+
+---
+## 🇴🇲Oman
+##### Phone Number
+- **Pattern:** `^((\+|00)968)?(9[1-9])\d{6}$`
+##### Postal Code
+- **Pattern:** `^\d{3}$`
+
+---
+## 🇵🇰Pakistan
+##### Phone Number
+- **Pattern:** `^((00|\+)?92|0)3[0-6]\d{8}$`
+##### Postal Code
+- **Pattern:** `^\d{5}$`
+
+---
+## 🇵🇸Palestine
+##### Phone Number
+- **Pattern:** `^(\+?970|0)5[6|9](\d{7}`
+##### Postal Code
+- **Pattern:** `^\d{5}$`
