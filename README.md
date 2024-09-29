@@ -1,4 +1,4 @@
-# 🌍regex patterns of all countries
+# 🌍 regex patterns of all countries
 This repository contains regular expression (regex) patterns for validating phone numbers &amp; postal codes for All countries.
 
 [![Licence](https://img.shields.io/github/license/Ileriayo/markdown-badges?style=for-the-badge)](./LICENSE)
