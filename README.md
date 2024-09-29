@@ -128,14 +128,14 @@ This repository contains regular expression (regex) patterns for validating phon
   - 🇶🇦 [Qatar](#qatar)
   - 🇷🇪 [Réunion](#réunion)
   - 🇷🇴 [Romania](#romania)
-  - 🇷🇺 [Russia](#Russia)
-  - 🇷🇼 [Rwanda](#Rwanda)
-  - 🇰🇳 [Saint Kitts and Nevis](#Saint-Kitts-and-Nevis)
+  - 🇷🇺 [Russia](#russia)
+  - 🇷🇼 [Rwanda](#rwanda)
+  - 🇰🇳 [Saint Kitts and Nevis](#saint-kitts-and-nevis)
   - 🇸🇲 [San Marino](#san-marino)
-  - 🇸🇦 [Saudi Arabia](#Saudi-Arabia)
-  - 🇸🇱 [Sierra Leone](#Sierra-Leone)
-  - 🇸🇬 [Singapore](#Singapore)
+  - 🇸🇦 [Saudi Arabia](#saudi-arabia)
   - 🇷🇸 [Serbia](#serbia)
+  - 🇸🇱 [Sierra Leone](#sierra-leone)
+  - 🇸🇬 [Singapore](#singapore)
   - 🇸🇰 [Slovakia](#slovakia)
   - 🇸🇮 [Slovenia](#slovenia)
   - 🇸🇴 [Somalia](#Somalia)
@@ -1037,3 +1037,73 @@ This repository contains regular expression (regex) patterns for validating phon
 - **Pattern:** `^(\+?40|0)\s?7\d{2}(\/|\s|\.|-)?\d{3}(\s|\.|-)?\d{3}$`
 ##### Postal Code
 - **Pattern:** `^\d{6}$`
+
+---
+## 🇷🇺Russia
+##### Phone Number
+- **Pattern:** `^(\+?7|8)?9\d{9}$`
+##### Postal Code
+- **Pattern:** `^\d{6}$`
+
+---
+## 🇷🇼Rwanda
+##### Phone Number
+- **Pattern:** `^(\+?250|0)?[7]\d{8}$`
+##### Postal Code
+- **Pattern:** `❌`
+
+---
+## 🇰🇳Saint Kitts and Nevis
+##### Phone Number
+- **Pattern:** `^(?:\+1|1)869(?:46\d|48[89]|55[6-8]|66\d|76[02-7])\d{4}$`
+##### Postal Code
+- **Pattern:** `❌`
+
+---
+## 🇸🇲San Marino
+##### Phone Number
+- **Pattern:** `^((\+378)|(0549)|(\+390549)|(\+3780549))?6\d{5,9}$`
+##### Postal Code
+- **Pattern:** `^4789\d$`
+
+---
+## 🇸🇦Saudi Arabia
+##### Phone Number
+- **Pattern:** `^(!?(\+?966)|0)?5\d{8}$`
+##### Postal Code
+- **Pattern:** `^\d{5}(-{1}\d{4})?$`
+
+---
+## 🇷🇸Serbia
+##### Phone Number
+- **Pattern:** `^(\+3816|06)[- \d]{5,9}$`
+##### Postal Code
+- **Pattern:** `^\d{5}$`
+
+---
+## 🇸🇱Sierra Leone
+##### Phone Number
+- **Pattern:** `^(\+?232|0)\d{8}$`
+##### Postal Code
+- **Pattern:** `❌`
+
+---
+## 🇸🇬Singapore
+##### Phone Number
+- **Pattern:** `^(\+65)?[3689]\d{7}$`
+##### Postal Code
+- **Pattern:** `^\d{2}$` or `^\d{4}$` or `^\d{6}$`
+
+---
+## 🇸🇰Slovakia
+##### Phone Number
+- **Pattern:** `^(\+?421)? ?[1-9][0-9]{2} ?[0-9]{3} ?[0-9]{3}$`
+##### Postal Code
+- **Pattern:** `^\d{5}\s\(\d{3}\s\d{2}\)$`
+
+---
+## 🇸🇮Slovenia
+##### Phone Number
+- **Pattern:** `^(\+386\s?|0)(\d{1}\s?\d{3}\s?\d{2}\s?\d{2}|\d{2}\s?\d{3}\s?\d{3})$`
+##### Postal Code
+- **Pattern:** `^([S][I][- ]{0,1}){0,1}\d{4}$`
