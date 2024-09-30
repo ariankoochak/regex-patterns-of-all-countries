@@ -138,36 +138,36 @@ This repository contains regular expression (regex) patterns for validating phon
   - 🇸🇬 [Singapore](#singapore)
   - 🇸🇰 [Slovakia](#slovakia)
   - 🇸🇮 [Slovenia](#slovenia)
-  - 🇸🇴 [Somalia](#Somalia)
-  - 🇿🇦 [South Africa](#South-Africa)
-  - 🇸🇸 [South Sudan](#South-Sudan)
+  - 🇸🇴 [Somalia](#somalia)
+  - 🇿🇦 [South Africa](#south-africa)
+  - 🇸🇸 [South Sudan](#south-sudan)
   - 🇪🇸 [Spain](#spain)
-  - 🇱🇰 [Sri Lanka](#Sri-Lanka)
-  - 🇸🇩 [Sudan](#Sudan)
+  - 🇱🇰 [Sri Lanka](#sri-lanka)
+  - 🇸🇩 [Sudan](#sudan)
   - 🇸🇪 [Sweden](#sweden)
   - 🇨🇭 [Switzerland](#switzerland)
-  - 🇸🇾 [Syria](#Syria)
+  - 🇸🇾 [Syria](#syria)
   - 🇹🇼 [Taiwan](#Taiwan)
-  - 🇹🇯 [Tajikistan](#Tajikistan)
-  - 🇹🇿 [Tanzania](#Tanzania)
-  - 🇹🇭 [Thailand](#Thailand)
-  - 🇹🇳 [Tunisia](#Tunisia)
-  - 🇹🇷 [Turkey](#Turkey)
-  - 🇹🇲 [Turkmenistan](#Turkmenistan)
-  - 🇺🇬 [Uganda](#Uganda)
+  - 🇹🇯 [Tajikistan](#tajikistan)
+  - 🇹🇿 [Tanzania](#tanzania)
+  - 🇹🇭 [Thailand](#thailand)
+  - 🇹🇳 [Tunisia](#tunisia)
+  - 🇹🇷 [Turkey](#turkey)
+  - 🇹🇲 [Turkmenistan](#turkmenistan)
+  - 🇺🇬 [Uganda](#uganda)
   - 🇺🇦 [Ukraine](#ukraine)
-  - 🇦🇪 [United Arab Emirates](#United-Arab-Emirates)
+  - 🇦🇪 [United Arab Emirates](#united-arab-emirates)
   - 🇬🇧 [United Kingdom](#united-kingdom)
-  - 🇺🇸 [United States of America](#United-States-of-America)
-  - 🇺🇾 [Uruguay](#Uruguay)
-  - 🇺🇿 [Uzbekistan](#Uzbekistan)
-  - 🇻🇪 [Venezuela](#Venezuela)
-  - 🇻🇳 [Vietnam](#Vietnam)
-  - 🇼🇫 [Wallis and Futuna](#Wallis-and-Futuna)
-  - 🇪🇭 [Western Sahara](#Western-Sahara)
-  - 🇾🇪 [Yemen](#Yemen)
-  - 🇿🇲 [Zambia](#Zambia)
-  - 🇿🇼 [Zimbabwe](#Zimbabwe)
+  - 🇺🇸 [United States of America](#united-states-of-america)
+  - 🇺🇾 [Uruguay](#uruguay)
+  - 🇺🇿 [Uzbekistan](#uzbekistan)
+  - 🇻🇪 [Venezuela](#venezuela)
+  - 🇻🇳 [Vietnam](#vietnam)
+  - 🇼🇫 [Wallis and Futuna](#wallis-and-futuna)
+  - 🇪🇭 [Western Sahara](#western-sahara)
+  - 🇾🇪 [Yemen](#yemen)
+  - 🇿🇲 [Zambia](#zambia)
+  - 🇿🇼 [Zimbabwe](#zimbabwe)
 
 
 ---
@@ -1107,3 +1107,213 @@ This repository contains regular expression (regex) patterns for validating phon
 - **Pattern:** `^(\+386\s?|0)(\d{1}\s?\d{3}\s?\d{2}\s?\d{2}|\d{2}\s?\d{3}\s?\d{3})$`
 ##### Postal Code
 - **Pattern:** `^([S][I][- ]{0,1}){0,1}\d{4}$`
+
+---
+## 🇸🇴Somalia
+##### Phone Number
+- **Pattern:** `^(\+?252|0)((6[0-9])\d{7}|(7[1-9])\d{7})$`
+##### Postal Code
+- **Pattern:** `❌`
+
+---
+## 🇿🇦South Africa
+##### Phone Number
+- **Pattern:** `^(\+?27|0)\d{9}$`
+##### Postal Code
+- **Pattern:** ``
+
+---
+## 🇸🇸South Sudan
+##### Phone Number
+- **Pattern:** `^(\+?211|0)(9[1257])\d{7}$`
+##### Postal Code
+- **Pattern:** `^\d{4}$`
+
+---
+## 🇪🇸Spain
+##### Phone Number
+- **Pattern:** `^(\+?34)?[6|7]\d{8}$`
+##### Postal Code
+- **Pattern:** `^\d{5}$`
+
+---
+## 🇱🇰Sri Lanka
+##### Phone Number
+- **Pattern:** `^(?:0|94|\+94)?(7(0|1|2|4|5|6|7|8)( |-)?)\d{7}$`
+##### Postal Code
+- **Pattern:** `^\d{5}$`
+
+---
+## 🇸🇩Sudan
+##### Phone Number
+- **Pattern:** `^((\+?249)|0)?(9[012369]|1[012])\d{7}$`
+##### Postal Code
+- **Pattern:** `^\d{5}$`
+
+---
+## 🇸🇪Sweden
+##### Phone Number
+- **Pattern:** `^(\+?46|0)[\s\-]?7[\s\-]?[02369]([\s\-]?\d){7}$`
+##### Postal Code
+- **Pattern:** `^\d{3}\s*\d{2}$`
+
+---
+## 🇨🇭Switzerland
+##### Phone Number
+- **Pattern:** `^(\+41|0)([1-9])\d{1,9}$`
+##### Postal Code
+- **Pattern:** `^\d{4}$`
+
+---
+## 🇸🇾Syria
+##### Phone Number
+- **Pattern:** `^(!?(\+?963)|0)?9\d{8}$`
+##### Postal Code
+- **Pattern:** `❌`
+
+---
+## 🇹🇼Taiwan
+##### Phone Number
+- **Pattern:** `^(\+?886\-?|0)?9\d{8}$`
+##### Postal Code
+- **Pattern:** `^\d{5}$`
+
+---
+## 🇹🇯Tajikistan
+##### Phone Number
+- **Pattern:** `^(\+?992)?[5][5]\d{7}$`
+##### Postal Code
+- **Pattern:** `^\d{6}$`
+
+---
+## 🇹🇿Tanzania
+##### Phone Number
+- **Pattern:** `^(\+?255|0)?[67]\d{8}$`
+##### Postal Code
+- **Pattern:** `❌`
+
+---
+## 🇹🇭Thailand
+##### Phone Number
+- **Pattern:** `^(\+66|66|0)\d{9}$`
+##### Postal Code
+- **Pattern:** `^\d{5}$`
+
+---
+## 🇹🇳Tunisia
+##### Phone Number
+- **Pattern:** `^(\+?216)?[2459]\d{7}$`
+##### Postal Code
+- **Pattern:** `^\d{4}$`
+
+---
+## 🇹🇷Turkey
+##### Phone Number
+- **Pattern:** `^(\+?90|0)?5\d{9}$`
+##### Postal Code
+- **Pattern:** `^\d{5}$`
+
+---
+## 🇹🇲Turkmenistan
+##### Phone Number
+- **Pattern:** `^(\+993|993|8)\d{8}$`
+##### Postal Code
+- **Pattern:** `^\d{6}$`
+
+---
+## 🇺🇬Uganda
+##### Phone Number
+- **Pattern:** `^(\+?256|0)?[7]\d{8}$`
+##### Postal Code
+- **Pattern:** `❌`
+
+---
+## 🇺🇦Ukraine
+##### Phone Number
+- **Pattern:** `^(\+?38|8)?0\d{9}$`
+##### Postal Code
+- **Pattern:** `^\d{5}$`
+
+---
+## 🇦🇪United Arab Emirates
+##### Phone Number
+- **Pattern:** `^((\+?971)|0)?5[024568]\d{7}$`
+##### Postal Code
+- **Pattern:** `❌`
+
+---
+## 🇬🇧United Kingdom
+##### Phone Number
+- **Pattern:** `^(\+?44|0)7\d{9}$`
+##### Postal Code
+- **Pattern:** `^[A-Z]{1,2}[0-9R][0-9A-Z]?\s*[0-9][A-Z-[CIKMOV]]{2}`
+
+---
+## 🇺🇸United States of America
+##### Phone Number
+- **Pattern:** `^(\+1[-.\s]?)?(\(?\d{3}\)?[-.\s]?)?\d{3}[-.\s]?\d{4}$`
+##### Postal Code
+- **Pattern:** `^\b\d{5}\b(?:[- ]{1}\d{4})?$`
+
+---
+## 🇺🇾Uruguay
+##### Phone Number
+- **Pattern:** `^(\+598|0)9[1-9][\d]{6}$`
+##### Postal Code
+- **Pattern:** `^\d{5}$`
+
+---
+## 🇺🇿Uzbekistan
+##### Phone Number
+- **Pattern:** `^(\+?998)?(6[125-79]|7[1-69]|88|9\d)\d{7}$`
+##### Postal Code
+- **Pattern:** `^\d{3} \d{3}$`
+
+---
+## 🇻🇪Venezuela
+##### Phone Number
+- **Pattern:** `^(\+?58)?(2|4)\d{9}$`
+##### Postal Code
+- **Pattern:** `^\d{4}(\s[a-zA-Z]{1})?$`
+
+---
+## 🇻🇳Vietnam
+##### Phone Number
+- **Pattern:** `^((\+?84)|0)((3([2-9]))|(5([25689]))|(7([0|6-9]))|(8([1-9]))|(9([0-9])))([0-9]{7})$`
+##### Postal Code
+- **Pattern:** `^\d{6}$`
+
+---
+## 🇼🇫Wallis and Futuna
+##### Phone Number
+- **Pattern:** `^(\+681)?\d{6}$`
+##### Postal Code
+- **Pattern:** `^986\d{2}$`
+
+---
+## 🇪🇭Western Sahara
+##### Phone Number
+- **Pattern:** `^(\+?212|0)[\s\-]?(5288|5289)[\s\-]?\d{5}$`
+##### Postal Code
+- **Pattern:** `❌`
+
+---
+## 🇾🇪Yemen
+##### Phone Number
+- **Pattern:** `^(((\+|00)9677|0?7)[0137]\d{7}|((\+|00)967|0)[1-7]\d{6})$`
+##### Postal Code
+- **Pattern:** `❌`
+
+---
+## 🇿🇲Zambia
+##### Phone Number
+- **Pattern:** `^(\+?26)?09[567]\d{7}$`
+##### Postal Code
+- **Pattern:** `^\d{5}$`
+
+---
+## 🇿🇼Zimbabwe
+##### Phone Number
+- **Pattern:** `^(\+263)[0-9]{9}$`
+##### Postal Code
+- **Pattern:** `❌`
