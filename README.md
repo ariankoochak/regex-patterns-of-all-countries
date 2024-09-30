@@ -1,6 +1,8 @@
 # 🌍 regex patterns of all countries
 This repository contains regular expression (regex) patterns for validating phone numbers &amp; postal codes for All countries.
 
+I will be happy if you find a wrong pattern or find a problem. Report it and fix it
+
 [![Licence](https://img.shields.io/github/license/Ileriayo/markdown-badges?style=for-the-badge)](./LICENSE)
 
 ## Contents
@@ -266,7 +268,7 @@ This repository contains regular expression (regex) patterns for validating phon
 ##### Phone Number
 - **Pattern:** `^(\+994|0)(10|5[015]|7[07]|99)\d{7}$`
 ##### Postal Code
-- **Pattern:** `^[A][Z]\\d{4}$`
+- **Pattern:** `^[A][Z]\d{4}$`
 
 ---
 ## 🇧🇸Bahamas
@@ -315,7 +317,7 @@ This repository contains regular expression (regex) patterns for validating phon
 ##### Phone Number
 - **Pattern:** `^(\+?1)?441(((3|7)\d{6}$)|(5[0-3][0-9]\d{4}$)|(59\d{5}$))`
 ##### Postal Code
-- **Pattern:** `^[A-Za-z]{2}\\s([A-Za-z]{2}|\\d{2})$`
+- **Pattern:** `^[A-Za-z]{2}\s([A-Za-z]{2}|\d{2})$`
 
 ---
 ## 🇧🇹Bhutan
@@ -378,7 +380,7 @@ This repository contains regular expression (regex) patterns for validating phon
 ##### Phone Number
 - **Pattern:** `^((\+1|1)?( |-)?)?(\([2-9][0-9]{2}\)|[2-9][0-9]{2})( |-)?([2-9][0-9]{2}( |-)?[0-9]{4})$`
 ##### Postal Code
-- **Pattern:** `^(?=[^DdFfIiOoQqUu\\d\\s])[A-Za-z]\\d(?=[^DdFfIiOoQqUu\\d\\s])[A-Za-z]\\s{0,1}\\d(?=[^DdFfIiOoQqUu\\d\\s])[A-Za-z]\\d$`
+- **Pattern:** `^(?=[^DdFfIiOoQqUu\d\s])[A-Za-z]\d(?=[^DdFfIiOoQqUu\d\s])[A-Za-z]\s{0,1}\d(?=[^DdFfIiOoQqUu\d\s])[A-Za-z]\d$`
 
 ---
 ## 🇨🇫Central African Republic
@@ -392,7 +394,7 @@ This repository contains regular expression (regex) patterns for validating phon
 ##### Phone Number
 - **Pattern:** `^(\+?56|0)[2-9]\d{1}\d{7}$`
 ##### Postal Code
-- **Pattern:** `^\\d{7}\\s\\(\\d{3}-\\d{4}\\)$`
+- **Pattern:** `^\d{7}\s\(\d{3}-\d{4}\)$`
 
 ---
 ## 🇨🇳China
@@ -560,7 +562,7 @@ This repository contains regular expression (regex) patterns for validating phon
 ##### Phone Number
 - **Pattern:** `^(\+?30|0)?6(8[5-9]|9(?![26])[0-9])\d{7}$`
 ##### Postal Code
-- **Pattern:** `^\\d{3}\\s{0,1}\\d{2}$`
+- **Pattern:** `^\d{3}\s{0,1}\d{2}$`
 
 ---
 ## 🇬🇱Greenland
@@ -581,7 +583,7 @@ This repository contains regular expression (regex) patterns for validating phon
 ##### Phone Number
 - **Pattern:** `^(\+?44|0)1481\d{6}$`
 ##### Postal Code
-- **Pattern:** `^[A-Za-z]{2}\\d\\s{0,1}\\d[A-Za-z]{2}$`
+- **Pattern:** `^[A-Za-z]{2}\d\s{0,1}\d[A-Za-z]{2}$`
 
 ---
 ## 🇬🇾Guyana
