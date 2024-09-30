@@ -231,7 +231,7 @@ This repository contains regular expression (regex) patterns for validating phon
 ##### Phone Number
 - **Pattern:** `^\+?549(11|[2368]\d)\d{8}$`
 ##### Postal Code
-- **Pattern:** `^\d{4}|[A-Za-z]\\d{4}[a-zA-Z]{3}$`
+- **Pattern:** `^\d{4}|[A-Za-z]\d{4}[a-zA-Z]{3}$`
 
 ---
 ## 🇦🇲Armenia
