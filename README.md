@@ -1122,7 +1122,7 @@ I will be happy if you find a wrong pattern or find a problem. Report it and fix
 ##### Phone Number
 - **Pattern:** `^(\+?27|0)\d{9}$`
 ##### Postal Code
-- **Pattern:** ``
+- **Pattern:** `❌`
 
 ---
 ## 🇸🇸South Sudan
