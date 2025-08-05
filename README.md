@@ -770,7 +770,7 @@ I will be happy if you find a wrong pattern or find a problem. Report it and fix
 ---
 ## 🇱🇹Lithuania
 ##### Phone Number
-- **Pattern:** `^(\+370|8)\d{8}$`
+- **Pattern:** `^(\+370|0)\d{8}$`
 ##### Postal Code
 - **Pattern:** `^[Ll][Tt][- ]{0,1}\d{5}$`
 
